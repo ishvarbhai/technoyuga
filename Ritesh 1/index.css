@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* header */
+
+header{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+header .top{
+    display: flex;
+    justify-content: space-around;
+}
+header .top .logo{
+    margin: 40px;
+    color: white;
+}
+header .top .nav ul{
+    display: flex;  
+    list-style: none;
+    margin: 40px;
+}
+header .top .nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+header .top  button{
+    background-color: #D2F7FF;
+    height: 30px;
+    width: 150px;
+    border:none;
+    border-radius: 50px;
+    margin: 40px;
+}
+header .top-details{
+    position: absolute;
+    margin: 100px;
+    top: 200px;
+    left: 200px;
+}
+header .top-details h3{
+    color: white;
+    padding-bottom: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+header .top-details h3 span{
+    font-size: 30px;
+    line-height: 50px;
+}
+header .top-details button{
+    background-color: transparent;
+    height: 30px;
+    width: 150px;
+    border:1px solid white;
+    border-radius: 50px;
+    color: white;
+}
+header .top-details button:hover{
+    background-color:#D2F7FF ;
+    color: black;
+    transition: 1s all ease;
+}
+
+    /* culture */
+
+.culture .cul-1{
+    text-align: center;
+}
+.culture .cul-1 h3{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 30px;    
+    color: #003262;
+    text-decoration: underline;
+}
+.culture .cul-1 span{
+    font-size: 30px;
+}
+.culture .cul-1 p{
+    line-height: 30px;
+    padding-top: 30px;
+}
+.culture .cul-2 .image1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.culture .cul-2 .image1 .img1 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image1 .img2 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image1 .img3 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image1 .img4 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.culture .cul-2 .image2 .img5 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image2 .img6 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image2 .img7 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.culture .cul-2 .image2 .img8 img{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+    /* choose */
+
+.choose .choose1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.choose .choose1 h2{
+    color: #003262;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.choose .choose1 span{
+    line-height: 30px;
+}
+.choose .choose1 p{
+    padding-top: 20px;
+}
+.choose .choose2 .ch1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+    text-align: center;
+}
+.choose .choose3 .ch2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+    text-align: center;
+}
+
+.choose .choose4 .ch3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+    text-align: center;
+}
+
+
+/* trend */
+
+.trend .head{
+    text-align: center;
+    padding: 70px;
+    padding-top: 100px;
+}
+.trend .head h2{
+    color: #003262;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+.trend .head p{
+    font-size: 20px;
+}
+.trend .ios{
+    margin: 70px;
+}
+.trend .ios h3{
+    padding-bottom: 20px;
+}
+.trend .ios p{
+    padding-bottom: 30px;
+}
+.trend .ios button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #18B0D1;
+    color: white;
+}
+.trend .ios button:hover{
+    background-color: white;
+    color: #18B0D1;
+    border: 2px solid #18B0D1;
+    transition: 1s all ease;
+}
+.trend .opport .react{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.trend .opport .ui{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.trend .opport .bussines{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.trend .opport .net{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.team .join{
+    margin: auto;
+}
+.team .join h2{
+    padding-bottom: 30px;
+}
+.team .join p{
+    padding-bottom: 20px;
+    text-align: start;
+}
+.team .join button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #18B0D1;
+    color: white;
+}
+.team .join button:hover{
+    background-color: white;
+    color: #18B0D1;
+    border: 2px solid #18B0D1;
+    transition: 1s all ease;
+}
+.team .img{
+    margin: auto;
+}
+.team .img img{
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+}
+.form .submit{
+    text-align: center;
+
+}
+.form .f1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form .f1 .name .fname{
+   padding: 10px;
+}
+.form .f1 .name1 .email{
+    padding: 10px;
+ }
+ .form .msg{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+ }
+ .form .f1 input{
+    width: 300px;
+    height: 30px;
+ }
+ .form .f1 .msg{
+    width: 100%;
+ }
+ .form .btn1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ }
+ .form .btn1 button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #18B0D1;
+    color: white;
+ }
+ .form .btn1 button:hover{
+    background-color: white;
+    color: #18B0D1;
+    border: 2px solid #18B0D1;
+    transition: 1s all ease;
+}
+ 
+ .footer{
+    background-color: black;
+ }
+ .footer .logo1{
+    text-align: center;
+    padding-top: 30px;
+ }
+ .footer .list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+ }
+ .footer .list ul a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+ }
+ .footer .footer1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+ .footer .footer1 .copy{
+   color: white;
+ }
+ .footer .footer1 .brand ul{
+    list-style: none;
+    display: flex;
+ }
+ .footer .footer1 .brand ul a{
+    padding: 10px;
+    color: white;
+ }
+ 
+ 
+ 
+ 
